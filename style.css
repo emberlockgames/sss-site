@@ -6,12 +6,17 @@
 	font-family: "subheaderFont";
 	src: url("font/Rowdies-Light.ttf");
 }
+@font-face {
+	font-family: "bodyFont";
+	src: url("font/YsabeauInfant-VariableFont_wght.ttf");
+}
 
 body {
 	background-color: #0C0C0C;
 	color: #EFEFEF;
 	margin: 0em 1em 1em 1em;
-	font-family: Verdana, Helvetica, sans-serif;
+	font-family: "bodyFont", Verdana, Helvetica, sans-serif;
+	font-size: 1.2em;
 }
 
 h1 {
@@ -27,10 +32,21 @@ h2 {
 	font-size: 2em;
 }
 
+
+div.hFlow {
+	display: flex;
+}
+
+div.galleryBack {
+	background-color: #050505;
+	margin: 1em;
+}
+
 div.footer {
 	position: absolute;
 	bottom: 1em;
 	width: 90%;
 	text-align: center;
 	color: #9F9F9F;
+	font-size: 0.666em;
 }
