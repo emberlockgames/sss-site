@@ -1,2 +1,3 @@
 # sss-site
-SSS-Site
+
+Website for ELG's SSS
